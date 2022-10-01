@@ -1,9 +1,13 @@
 {
-  "compilerOptions": {
-    "target": "ES2022",
-    "module": "ES2022",
-    "moduleResolution": "NodeNext",
-    "strict": true,
-  },
-  "include": ["src"]
+    "compilerOptions": {
+        "target": "ES2022",
+        "module": "ES2022",
+        "moduleResolution": "NodeNext",
+        "sourceMap": true,
+        "declaration": true,
+        "declarationMap": true,
+        "strict": true,
+        "outDir": "dist"
+    },
+    "include": ["src"]
 }
