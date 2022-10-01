@@ -1,0 +1,12 @@
+{
+    "name": "ts_node_sandbox",
+    "version": "1.0.0",
+    "description": "",
+    "type": "module",
+    "scripts": {},
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "typescript": "^4.8.4"
+    }
+}
