@@ -7,7 +7,7 @@
         "glob_ext": "npx ts-node-esm ./src/glob_ext.ts",
         "glob_no_ext": "npx ts-node-esm ./src/glob_no_ext.ts",
         "no_glob_ext": "npx ts-node-esm ./src/no_glob_ext.ts",
-        "js:glob_no_ext": "node dist/glob_no_ext.js"
+        "js:glob_ext": "node dist/glob_no_ext.js"
     },
     "author": "",
     "license": "ISC",
