@@ -1,12 +1,21 @@
 {
-    "name": "ts_node_sandbox",
+    "name": "ts-node-sandbox",
     "version": "1.0.0",
     "description": "",
     "type": "module",
-    "scripts": {},
+    "scripts": {
+        "glob_ext": "npx ts-node-esm ./src/glob_ext.ts",
+        "glob_no_ext": "npx ts-node-esm ./src/glob_no_ext.ts",
+        "no_glob_ext": "npx ts-node-esm ./src/no_glob_ext.ts",
+        "js:glob_no_ext": "node dist/glob_no_ext.js"
+    },
     "author": "",
     "license": "ISC",
     "devDependencies": {
-        "typescript": "^4.8.4"
+        "ts-node": "^10.9.1",
+        "typescript": "^4.8"
+    },
+    "dependencies": {
+        "foo_pkg": "file:foo_pkg-1.0.0.tgz"
     }
 }

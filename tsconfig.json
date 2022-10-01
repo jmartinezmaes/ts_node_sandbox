@@ -3,9 +3,9 @@
         "target": "ES2022",
         "module": "ES2022",
         "moduleResolution": "NodeNext",
-        "sourceMap": true,
         "declaration": true,
         "declarationMap": true,
+        "sourceMap": true,
         "strict": true,
         "outDir": "dist"
     },

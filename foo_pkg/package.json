@@ -1,0 +1,23 @@
+{
+    "name": "foo_pkg",
+    "version": "1.0.0",
+    "description": "",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "type": "module",
+    "files": [
+        "dist",
+        "src"
+    ],
+    "exports": {
+        "./*": "./dist/*.js",
+        "./*.js": "./dist/foo.js",
+        "./bar.js": "./dist/bar.js"
+    },
+    "devDependencies": {
+        "typescript": "^4.8.4"
+    }
+}
