@@ -13,11 +13,9 @@
         "src"
     ],
     "exports": {
-        "./*": "./dist/*.js",
-        "./*.js": "./dist/foo.js",
-        "./bar.js": "./dist/bar.js"
+        "./*.js": "./dist/*.js"
     },
     "devDependencies": {
-        "typescript": "^4.8.4"
+        "typescript": "~4.9"
     }
 }
